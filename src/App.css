@@ -15,12 +15,20 @@
   font-size: 28px;
 }
 
+a:visited{
+color: black;
+}
+a:active{
+  color: white;
+}
+
 .container-app{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background: hsla(205, 46%, 10%, 1);
 background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, rgb(42, 69, 75) 49%, hsla(207, 41%, 27%, 1) 100%);

@@ -1,5 +1,6 @@
 import './App.css'
 import { DiGithubBadge } from "react-icons/di";
+import Linkedin from './components/Linkedin';
 function App() {
   
 
@@ -7,10 +8,13 @@ function App() {
     <div className='container-app'>
       <h1>Links da Giu </h1>
 
-      <a href="https://github.com/GiuliaSouzaDaF" className='links' target='_blank'><DiGithubBadge />
+      <a href="https://github.com/GiuliaSouzaDaF" 
+      className='links' target='_blank'>
+        <DiGithubBadge />
       
-      Github</a>
-      
+      Github
+      </a>
+      <Linkedin/>
     </div>
   )
 }
